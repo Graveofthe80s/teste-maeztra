@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/teste-maeztra/static/css/main.ce06d14d.chunk.css",
+    "main.js": "/teste-maeztra/static/js/main.f2d26844.chunk.js",
+    "main.js.map": "/teste-maeztra/static/js/main.f2d26844.chunk.js.map",
+    "runtime-main.js": "/teste-maeztra/static/js/runtime-main.9b915b31.js",
+    "runtime-main.js.map": "/teste-maeztra/static/js/runtime-main.9b915b31.js.map",
+    "static/js/2.c84db450.chunk.js": "/teste-maeztra/static/js/2.c84db450.chunk.js",
+    "static/js/2.c84db450.chunk.js.map": "/teste-maeztra/static/js/2.c84db450.chunk.js.map",
+    "index.html": "/teste-maeztra/index.html",
+    "precache-manifest.a9dc25a590391005da0102ec08a148f3.js": "/teste-maeztra/precache-manifest.a9dc25a590391005da0102ec08a148f3.js",
+    "service-worker.js": "/teste-maeztra/service-worker.js",
+    "static/css/main.ce06d14d.chunk.css.map": "/teste-maeztra/static/css/main.ce06d14d.chunk.css.map",
+    "static/js/2.c84db450.chunk.js.LICENSE.txt": "/teste-maeztra/static/js/2.c84db450.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b915b31.js",
+    "static/js/2.c84db450.chunk.js",
+    "static/css/main.ce06d14d.chunk.css",
+    "static/js/main.f2d26844.chunk.js"
+  ]
+}

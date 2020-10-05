@@ -1,0 +1,124 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+.footer-contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+  box-shadow: 1px 1px 3px #e7e5dd;
+}
+.footer-send {
+  margin: 0 40px;
+  display: flex;
+  height: 38px;
+}
+.footer-send input {
+  border: 1px solid #222220;
+  color: #222220;
+  padding: 4px 0px 4px 14px;
+  border-radius: 5px;
+  width: 400px;
+}
+.footer-btn {
+  border: none;
+  color: #faf8f0;
+  background-color: #fac600;
+  border-radius: 5px;
+  height: 100%;
+  margin-left: -30px;
+  width: 100px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.footer-mid {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 20px 150px;
+}
+.footer-info-mb {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-info-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #222220;
+}
+.footer-info .footer-links {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-info .footer-link {
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #222220;
+  padding: 18px 0;
+}
+
+.footer-bottom {
+  background-color: #222220;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+}
+
+.social-media svg,
+.cards svg {
+  width: 28px;
+  height: 28px;
+  padding: 10px;
+  color: #faf8f0;
+}
+
+.maeztra {
+  display: flex;
+  flex-direction: column;
+  color: #faf8f0;
+}
+.maeztra img {
+  margin-top: 5px;
+  height: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .footer-bottom div {
+    display: flex;
+  }
+  .footer-info {
+    width: 100%;
+    margin: 20px 10px;
+  }
+  .footer-info .footer-links {
+    display: none;
+  }
+  .footer-mid {
+    flex-direction: column;
+  }
+  .footer-contact-us {
+    flex-direction: column;
+  }
+  .footer-contact-us span {
+    margin-bottom: 20px;
+  }
+  .footer-send,
+  .footer-info-mb {
+    max-width: 350px;
+  }
+}

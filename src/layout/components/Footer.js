@@ -8,6 +8,7 @@ import {
   FaCcMastercard,
   FaPlus,
 } from "react-icons/fa";
+import logo from "../assets/maeztra.png";
 
 import "../css/Footer.styles.css";
 
@@ -91,10 +92,7 @@ const Footer = () => {
           </div>
           <div className="maeztra">
             <span>Powered by</span>
-            <img
-              src="https://maeztra.com/wp-content/uploads/2020/09/logo_Prancheta-1.svg"
-              alt=""
-            />
+            <img src={logo} alt="" />
           </div>
         </div>
       </div>

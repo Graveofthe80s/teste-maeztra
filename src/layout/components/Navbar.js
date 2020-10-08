@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { GrSearch } from "react-icons/gr";
 import { GiHamburgerMenu } from "react-icons/gi";
+import logo from "../assets/maeztra.png";
 
 import "../css/Navbar.styles.css";
 
@@ -39,7 +40,7 @@ class Navbar extends Component {
         <div className="header">
           <div className="header-primary">
             {innerW && <GiHamburgerMenu />}
-            <h1 className="header-logo">MAEZTRA</h1>
+            <img src={logo} alt="" />
             <div className="header-search">
               {!innerW && (
                 <input

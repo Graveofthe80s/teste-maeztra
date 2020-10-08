@@ -3,8 +3,9 @@ import Navbar from "./layout/components/Navbar";
 import SectionCarousel from "./layout/components/SectionCarousel";
 import SectionInfo from "./layout/components/SectionInfo";
 import SectionBrands from "./layout/components/SectionBrands";
-import SectionOffers from "./layout/components/SectionOffers";
+import SectionSlider from "./layout/components/SectionSlider";
 import SectionExtra from "./layout/components/SectionExtra";
+import SectionModal from "./layout/components/SectionModal";
 import Footer from "./layout/components/Footer";
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <SectionCarousel />
       <SectionInfo />
       <SectionBrands />
-      <SectionOffers />
+      <SectionSlider />
       <SectionExtra />
+      <SectionModal />
       <Footer />
     </React.Fragment>
   );

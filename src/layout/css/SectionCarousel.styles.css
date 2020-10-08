@@ -40,20 +40,22 @@
 
 .chevron {
   position: absolute;
-  top: 55%;
+  top: 35%;
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 .chevron #left {
   padding-left: 100px;
-  height: 30px;
+  height: 40px;
+  width: 40px;
   cursor: pointer;
   color: #faf8f0;
 }
 .chevron #right {
   padding-right: 100px;
-  height: 30px;
+  height: 40px;
+  width: 40px;
   cursor: pointer;
   color: #faf8f0;
 }

@@ -91,7 +91,7 @@
 }
 .maeztra img {
   margin-top: 5px;
-  height: 20px;
+  width: 150px;
 }
 
 @media screen and (max-width: 960px) {
